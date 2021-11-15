@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Tic-tac-toe</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='./main.js'></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="background">
+        <section class="title">
+            <h1>Tic-tac-toe</h1>
+        </section>
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <section class="container">
+            <div class="tile" style="border-left: 0;border-top: 0;"></div>
+            <div class="tile" style="border-top: 0; border-left: 0;border-right: 0;"></div>
+            <div class="tile" style="border-right: 0;border-top: 0;"></div>
+            <div class="tile" style="border-left: 0; border-top: 0;border-bottom: 0; "></div>
+            <div class="tile" style="border: 0;"></div>
+            <div class="tile" style="border-right: 0; border-top: 0;border-bottom: 0;"></div>
+            <div class="tile" style="border-left: 0;border-bottom: 0; "></div>
+            <div class="tile" style="border-left: 0; border-bottom: 0; border-right: 0;"></div>
+            <div class="tile" style="border-right: 0;border-bottom: 0;"></div>
+        </section>
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+</body>
+</html>
